@@ -9,7 +9,6 @@ depends          "runit"
 depends          "sudo"
 depends          "java"
 depends          "apache2"
-depends          "rundeck"
 
 recipe "rundeck::server", "Use this recipe to install the rundeck server on a node"
 recipe "rundeck::chef-rundeck", "Use this recipe to install the chef rundeck integration component, by default it is recommened to install on the chef server."
